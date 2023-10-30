@@ -21,15 +21,9 @@ header {
 #logo{
   width: 80%;
   padding: 1rem;
+  cursor: pointer;
 }
 
-#logo:hover{
-  -webkit-transform: scale(1.2);
-  transform: scale(1.1);
-  transition: 1s;
-  cursor: pointer;
-  opacity: 0.8;
-}
 
 .menu{
   display: flex;
@@ -48,8 +42,8 @@ header {
 }
 
 .navbar:hover{
-  -webkit-transform: scale(1.2);
-  transform: scale(1.1);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
   transition: 0.7s;
   color: #FF3333;
   opacity: 0.8;

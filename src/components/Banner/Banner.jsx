@@ -5,7 +5,7 @@ const Banner = () => {
     <section>
       <h3>Nuevos Ingresos</h3>
       <p>Descubrí el próximo Funko Pop de tu colección</p>
-      <button>shop</button>
+      <button className="banner-btn">shop</button>
     </section>
   )
 }

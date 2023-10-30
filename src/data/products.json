@@ -1,0 +1,22 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "title": "Star Wars & The Mandalorian",
+      "descripcion": "Disfruta de una saga que sigue agregando personajes a sucolección.",
+      "picture":"../../assets/star-wars/baby-yoda-1.webp"
+    },
+    {
+      "id": 2,
+      "title": "pokemon indigo",
+      "descripcion": "Atrapa todos los que puedas y disfruta de una colección llena deamigos.",
+      "picture":"../../assets/pokemon/vulpix-1.webp"
+    },
+    {
+      "id": 3,
+      "title": "harry potter",
+      "descripcion": "Revive los recuerdos de una saga llena de magia y encanto.",
+      "picture":"/assets/harry-potter/snape-patronus-1.webp"
+    }
+  ]
+}

@@ -8,7 +8,7 @@ section {
   color: white;
 }
 
-button {
+.banner-btn{
   padding: 0.5em 3em;
   border-radius: 2em;
   text-transform: uppercase;
@@ -16,9 +16,6 @@ button {
   font-weight: bold;
 }
 
-button:hover {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-  transition: 1s;
-  opacity: 0.95;
+.banner-btn:hover {
+  background-color: #cbc7c7;
 }
