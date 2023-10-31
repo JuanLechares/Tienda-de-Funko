@@ -1,22 +1,51 @@
 {
-  "productos": [
+  "collections": [
     {
       "id": 1,
       "title": "Star Wars & The Mandalorian",
       "descripcion": "Disfruta de una saga que sigue agregando personajes a sucolección.",
-      "picture":"../../assets/star-wars/baby-yoda-1.webp"
+      "picture":"src/assets/star-wars/baby-yoda-1.webp"
     },
     {
       "id": 2,
       "title": "pokemon indigo",
       "descripcion": "Atrapa todos los que puedas y disfruta de una colección llena deamigos.",
-      "picture":"../../assets/pokemon/vulpix-1.webp"
+      "picture":"src/assets/pokemon/vulpix-1.webp"
     },
     {
       "id": 3,
       "title": "harry potter",
       "descripcion": "Revive los recuerdos de una saga llena de magia y encanto.",
-      "picture":"/assets/harry-potter/snape-patronus-1.webp"
+      "picture":"src/assets/harry-potter/snape-patronus-1.webp"
+    }
+  ],
+  "productos":[
+    {
+      "id": 1,
+      "title": "stormtrooper lightsaber",
+      "collection":"star wars",
+      "price": "1799,99",
+      "cuotas":"3",
+      "picture-front":"src/assets/star-wars/trooper-1.webp",
+      "picture-back":"src/assets/star-wars/trooper-box.webp"
+    },
+    {
+      "id": 1,
+      "title": "pidgeotto",
+      "collection":"pokemon",
+      "price": "1849,99",
+      "cuotas":"6",
+      "picture-front":"src/assets/pokemon/pidgeotto-1.webp",
+      "picture-back":"src/assets/pokemon/pidgeotto-box.webp"
+    },
+    {
+      "id": 1,
+      "title": "luna lovegood lion mask",
+      "collection":"harry potter",
+      "price": "1699,99",
+      "cuotas":"12",
+      "picture-front":"src/assets/harry-potter/luna-1.webp",
+      "picture-back":"src/assets/harry-potter/luna-box.webp"
     }
   ]
 }
