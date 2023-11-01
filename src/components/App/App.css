@@ -29,10 +29,10 @@ html {
 
 body {
   margin: 0px;
-  background-color:#efefef;
+  background-color:#f59622;
 }  
 
-section, main, footer{
+section, main, footer, aside{
   padding-right: 6.5vw;
   padding-left: 6.5vw;
 }

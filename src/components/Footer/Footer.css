@@ -1,0 +1,27 @@
+footer{
+  display: flex;
+  background-color: #30343F;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  padding-right: 5vw;
+  padding-left: 5vw;
+  margin-top: 2em;
+}
+
+.navbarContainer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-logo{
+  padding: 1em;
+}
+
+.menu-footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  padding: 1rem;
+}

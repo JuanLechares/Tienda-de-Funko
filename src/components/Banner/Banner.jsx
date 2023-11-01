@@ -1,13 +1,12 @@
-import "./Banner.css"
+import "./Banner.css";
+import banner from "../../assets/branding/funko_top_banner.jpg";
 
 const Banner = () => {
   return (
     <section className="banner-background">
-      <h3>Nuevos Ingresos</h3>
-      <p>Descubrí el próximo Funko Pop de tu colección</p>
-      <button className="banner-btn">shop</button>
+      <img className="banner-img" src={banner}></img>
     </section>
-  )
-}
+  );
+};
 
-export default Banner
+export default Banner;

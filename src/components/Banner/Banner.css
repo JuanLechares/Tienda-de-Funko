@@ -1,12 +1,23 @@
 .banner-background{
-  background-image: url(../../assets/branding/funkos-banner.webp);
   padding-top: 2em;
   padding-bottom: 3em;
-  background-size: cover;
-  background-attachment: fixed;
-  position: relative;
   color: white;
+  padding: 0px;
+  margin-top: 0px;
+  border-radius: 8px;
+  cursor: pointer;
 }
+
+.banner-img{
+  width: 100%;
+}
+
+.banner-text{
+  color: black;
+  margin-right: 6.5vw;
+  margin-left: 6.5vw;
+}
+
 
 .banner-btn{
   padding: 0.5em 3em;
