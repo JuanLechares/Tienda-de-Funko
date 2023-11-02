@@ -1,20 +1,25 @@
 import "./NewReleases.css"
 import products from "../../data/products.json"
 import Product from "../Product/Product";
-import flechaDer from "../../assets/icons/flecha-correcta.png"
-import flechaIzq from "../../assets/icons/flecha-izq.png"
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
 
 const NewReleases = () => {
-  const productList= products.productos;
+  const productList= products.productos
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1
+  };
   return(
     <>
       <section><h2 className="newReleases-title">ULTIMOS LANZAMIENTOS</h2></section>
-      
       <section className="newReleases-container">
-        <div className="scroll-product">
-          <img className="btn-product" src={flechaIzq}></img>
-        </div>
+        <Slider {...settings}>
         {
           (productList!=null)&&(productList.map((prod)=>{
             return(
@@ -29,12 +34,11 @@ const NewReleases = () => {
             )
           }))
         }
-        <div className="scroll-product">
-        <img className="btn-product" src={flechaDer}></img>
-        </div>
+        </Slider>
       </section>
     </>
   );
 };
+
 
 export default NewReleases;

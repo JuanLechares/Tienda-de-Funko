@@ -46,6 +46,33 @@
       "cuotas":"12",
       "picture-front":"src/assets/harry-potter/luna-1.webp",
       "picture-back":"src/assets/harry-potter/luna-box.webp"
+    },
+    {
+      "id": 3,
+      "title": "charmander",
+      "collection":"pokemon",
+      "price": "2299,99",
+      "cuotas":"6",
+      "picture-front":"src/assets/pokemon/charmander-1.webp",
+      "picture-back":"src/assets/pokemon/charmander-box.webp"
+    },
+    {
+      "id": 4,
+      "title": "dragonite",
+      "collection":"pokemon",
+      "price": "1899,99",
+      "cuotas":"3",
+      "picture-front":"src/assets/pokemon/dragonite-1.webp",
+      "picture-back":"src/assets/pokemon/dragonite-box.webp"
+    },
+    {
+      "id": 5,
+      "title": "bobbafeth",
+      "collection":"star wars",
+      "price": "1799,99",
+      "cuotas":"3",
+      "picture-front":"src/assets/star-wars/bobbafeth-1.webp",
+      "picture-back":"src/assets/star-wars/bobbafeth-box.webp"
     }
   ]
 }

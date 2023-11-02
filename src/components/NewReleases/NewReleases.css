@@ -1,7 +1,5 @@
 .newReleases-container{
-  display: grid;
-  grid-template-columns: 4% 32% 32% 32% 4%;
-  padding-left: 1em;
+  margin: 0.5em;
 }
 
 .scroll-product{
@@ -14,6 +12,5 @@
 .btn-product{
   height: 10%;
   width: 100%;
-  margin-right: 0.4em;
   cursor: pointer;
 }
