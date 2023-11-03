@@ -1,11 +1,10 @@
-import { Navigate } from "react-router-dom";
 import "./product.css";
 import PropTypes from "prop-types";
 
-const Product = ({ title, collection, price, coutas, imgFront}) => {
+const Product = ({ title, collection, price, coutas, imgFront, newItem}) => {
   return (
     <div className="product-container">
-      <div className="new-icon">new</div>
+      {newItem ? (<div className="new-icon">new</div>) : ""}
       <img className="product-img" src={imgFront}></img>
       <p className="product-col">{collection}</p>
       <h3 className="product-title">{title}</h3>
@@ -20,7 +19,8 @@ Product.propTypes = {
   collection: PropTypes.string,
   price: PropTypes.string,
   coutas: PropTypes.string,
-  imgFront: PropTypes.string
+  imgFront: PropTypes.string,
+  newItem: PropTypes.bool
 };
 
 export default Product;

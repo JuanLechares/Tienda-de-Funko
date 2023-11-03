@@ -44,6 +44,7 @@
   "productos":[
     {
       "id": 0,
+      "route":"stormtrooper-lightsaber",
       "title": "stormtrooper lightsaber",
       "collection":"star wars",
       "price": "1799,99",
@@ -53,6 +54,7 @@
     },
     {
       "id": 1,
+      "route":"pidgeotto",
       "title": "pidgeotto",
       "collection":"pokemon",
       "price": "1849,99",
@@ -62,6 +64,7 @@
     },
     {
       "id": 2,
+      "route":"luna-lovegood-lion-mask",
       "title": "luna lovegood lion mask",
       "collection":"harry potter",
       "price": "1699,99",
@@ -71,30 +74,36 @@
     },
     {
       "id": 3,
+      "route":"charmander",
       "title": "charmander",
       "collection":"pokemon",
       "price": "2299,99",
       "cuotas":"6",
       "picture-front":"src/assets/pokemon/charmander-1.webp",
-      "picture-back":"src/assets/pokemon/charmander-box.webp"
+      "picture-back":"src/assets/pokemon/charmander-box.webp",
+      "new":true
     },
     {
       "id": 4,
+      "route":"dragonite",
       "title": "dragonite",
       "collection":"pokemon",
       "price": "1899,99",
       "cuotas":"3",
       "picture-front":"src/assets/pokemon/dragonite-1.webp",
-      "picture-back":"src/assets/pokemon/dragonite-box.webp"
+      "picture-back":"src/assets/pokemon/dragonite-box.webp",
+      "new":true
     },
     {
       "id": 5,
+      "route":"bobbafeth",
       "title": "bobbafeth",
       "collection":"star wars",
       "price": "1799,99",
       "cuotas":"3",
       "picture-front":"src/assets/star-wars/bobbafeth-1.webp",
-      "picture-back":"src/assets/star-wars/bobbafeth-box.webp"
+      "picture-back":"src/assets/star-wars/bobbafeth-box.webp",
+      "new":true
     }
   ]
 }

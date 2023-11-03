@@ -12,11 +12,23 @@
 
 .slider-prod{
   margin-left: 0.4em;
+  
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+  color: #30343F;
+  cursor: pointer;
+}
+
+.slider-prod:visited{
+  text-decoration: none;
 }
 
 .newReleases-container{
   position:relative;
   margin-left: 0px;
+  margin-top: 3em;
 }
 
 .newReleases-title{

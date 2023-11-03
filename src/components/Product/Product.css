@@ -8,6 +8,7 @@
   overflow: hidden;
   transition: all 0.25s;
   margin:0.2em;
+  text-decoration: none;
 }
 
 .product-container:hover{

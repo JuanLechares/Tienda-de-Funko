@@ -5,11 +5,12 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { useRef } from "react";
+import { Link } from "react-router-dom";
 
 
 const NewReleases = () => {
   const productList = products.productos;
-  const slider = useRef(null);
+  const slider = useRef(null);  
   const settings = {
     dots: true,
     infinite: true,
@@ -21,23 +22,22 @@ const NewReleases = () => {
   };
   return (
     <>
-      <section>
-        <h2 className="newReleases-title">ULTIMOS LANZAMIENTOS</h2>
-      </section>
       <section className="newReleases-container">
         <div className="slider-prod">
           <Slider ref={slider} {...settings}>
             {productList != null &&
               productList.map((prod) => {
                 return (
-                  <Product
-                    key={prod.id}
-                    title={prod.title}
-                    collection={prod.collection}
-                    price={prod.price}
-                    coutas={prod.cuotas}
-                    imgFront={prod["picture-front"]}
-                  />
+                  <Link underline="none" key={prod.id} to={"item/"+prod.route}>
+                    <Product
+                      title={prod.title}
+                      collection={prod.collection}
+                      price={prod.price}
+                      coutas={prod.cuotas}
+                      imgFront={"../"+prod["picture-front"]}
+                      newItem={prod.new}
+                    />
+                  </Link>
                 );
               })}
           </Slider>

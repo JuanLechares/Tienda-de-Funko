@@ -1,13 +1,16 @@
 import "./Header.css";
 import logo from "../../assets/branding/logo_light_horizontal.webp";
 import carrito_Icon from "../../assets/icons/cart-icon.svg";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <header>
-        <picture>
-          <img id="logo" src={logo}></img>
-        </picture>
+        <Link to="/">
+          <picture >
+            <img id="logo" src={logo}></img>
+          </picture>
+        </Link>
         <nav>
           <ul className="menu">
             <li className="navbar">shop</li>

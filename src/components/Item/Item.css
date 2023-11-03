@@ -1,0 +1,75 @@
+.item-container{
+  display: grid;
+  grid-template-columns: 10% 30% 50%;
+  text-transform: uppercase;
+  justify-content: space-between;
+  margin-top: 2em;
+}
+
+
+.item-description{
+  background-color: white;
+  padding: 1em;
+  border-radius: 10px;
+}
+
+.p-picture-small{
+  cursor: pointer;
+  width: 6vw;
+  height: 10vh;
+  margin-right: 1em;
+}
+
+
+.btn-item-container{
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  margin-top: 2em;
+  height: 2em;
+  margin-bottom: 2em;
+}
+
+.btn-count{
+  width: 3em;
+  font-size: 1.4em;
+  cursor: pointer;
+  border: none;
+  background-color: #3483fa;
+  color: white;
+  border-radius: 10px;
+}
+
+.num-count{
+  text-align: center;
+  padding-top: 0.4em;
+  font-size: 1em;
+  color: black;
+}
+
+.btn-carrito{
+  background-color: #30343F;
+  color: white;
+  text-transform: uppercase;
+  width: 18em;
+  cursor: pointer;
+  font-size: 0.8em;
+}
+
+.item-text{
+  text-transform: lowercase;
+}
+
+.item-price{
+  font-size: 2em;
+}
+
+.item-coutas{
+  color: #3483fa;
+}
+
+@media only screen and (max-width: 600px) {
+  .item-description{
+    font-size: 10px;
+  }
+}
