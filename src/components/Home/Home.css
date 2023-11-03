@@ -28,8 +28,8 @@ html {
 }
 
 body {
-  margin: 0px;
-  background-color:#f59622;
+  margin: 0px !important;
+  background-color:#ebebeb;
 }  
 
 section, main, footer, aside{

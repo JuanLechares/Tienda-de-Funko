@@ -1,3 +1,4 @@
+import { Navigate } from "react-router-dom";
 import "./product.css";
 import PropTypes from "prop-types";
 

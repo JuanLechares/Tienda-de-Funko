@@ -1,15 +1,37 @@
 {
+  "banners":[
+    {
+      "id": 1,
+      "src": "src/assets/branding/funko_top_banner.jpg"
+    },
+    {
+      "id": 2,
+      "src": "src/assets/branding/funko-banner-heros.jpg"
+    },
+    {
+      "id": 3,
+      "src": "src/assets/branding/funko-banner-movies.webp"
+    },
+    {
+      "id": 4,
+      "src": "src/assets/branding/Funko-Banner-marvel.webp"
+    },
+    {
+      "id": 5,
+      "src": "src/assets/branding/funko-banner-other.jpg"
+    }
+  ],
   "collections": [
     {
       "id": 1,
       "title": "Star Wars & The Mandalorian",
-      "descripcion": "Disfruta de una saga que sigue agregando personajes a sucolección.",
+      "descripcion": "Disfruta de una saga que sigue agregando personajes a su colección.",
       "picture":"src/assets/star-wars/baby-yoda-1.webp"
     },
     {
       "id": 2,
       "title": "pokemon indigo",
-      "descripcion": "Atrapa todos los que puedas y disfruta de una colección llena deamigos.",
+      "descripcion": "Atrapa todos los que puedas y disfruta de una colección llena de amigos.",
       "picture":"src/assets/pokemon/vulpix-1.webp"
     },
     {

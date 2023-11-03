@@ -11,7 +11,7 @@ const Collection = ({title, description, picture}) => {
         <hr className="border-red"/>
         <button className="collection-btn">ver colección</button>
       </article>
-      <picture >
+      <picture className="col-img-container">
         <img className="collection-img" src={picture} alt={title}></img>
       </picture>
     </main>

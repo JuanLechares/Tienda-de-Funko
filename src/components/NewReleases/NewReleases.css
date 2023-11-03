@@ -1,16 +1,56 @@
-.newReleases-container{
-  margin: 0.5em;
-}
-
-.scroll-product{
-  height: 100%;
+.btn-container{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
   align-items: center;
+  top: 40%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }
 
-.btn-product{
-  height: 10%;
-  width: 100%;
+.slider-prod{
+  margin-left: 0.4em;
+}
+
+.newReleases-container{
+  position:relative;
+  margin-left: 0px;
+}
+
+.newReleases-title{
+  margin-top: 2em;
+  text-align:start;
+}
+
+.btn-slider{
+  background-color: #3483fa;
+  color: white;
+  border: none;
+  padding: 1em 1em;
+  width: 1%;
   cursor: pointer;
+  font-size: 1.5em;
+  margin:0em 0.6em;
+  margin-right:0.4em;
+}
+
+
+.btn-slider-izq{
+  border-top-left-radius: 100%;
+  border-bottom-left-radius: 100%;
+}
+
+.btn-slider-der{
+  border-top-right-radius: 100%;
+  border-bottom-right-radius: 100%;
+  padding-right: 1.5em;
+  padding-left: 0.4em;
+}
+
+@media only screen and (max-width: 470px) {
+  .btn-container{
+    opacity: 0;
+  }
 }

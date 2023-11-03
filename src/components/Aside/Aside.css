@@ -1,7 +1,8 @@
 aside{
   display: flex;
   justify-content: space-between;
-  margin-bottom: 3em;
+  margin-bottom: 4em;
+  padding-right: 3vw;
 }
 
 .option-title{
@@ -14,6 +15,7 @@ aside{
   overflow: hidden ;
   width: 90%;
   height: 90%;
+  border-radius: 8px;
 }
 
 .option-img:hover{

@@ -1,4 +1,4 @@
-import "./App.css";
+import "./Home.css";
 import Banner from "../Banner/Banner";
 import Header from "../Header/Header";
 import ListCollection from "../ListCollection/ListCollection";
@@ -8,7 +8,7 @@ import Aside from "../Aside/Aside";
 
 
 
-const App = () => {
+const Home = () => {
   return (
     <>
       <Header />
@@ -21,4 +21,4 @@ const App = () => {
   )
 }
 
-export default App;
+export default Home;
