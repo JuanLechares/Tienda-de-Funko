@@ -1,15 +1,15 @@
 import "./product.css";
 import PropTypes from "prop-types";
 
-const Product = ({ title, collection, price, coutas, imgFront, newItem}) => {
+const Product = ({ title, collection, price, coutas, imgFront}) => {
   return (
     <div className="product-container">
-      {newItem ? (<div className="new-icon">new</div>) : ""}
       <img className="product-img" src={imgFront}></img>
       <p className="product-col">{collection}</p>
       <h3 className="product-title">{title}</h3>
       <p className="product-price">${price}</p>
       <p className="product-coutas">{coutas} cuotas sin interés</p>
+      {console.log("se recorrio una producto")}
     </div>
   );
 };

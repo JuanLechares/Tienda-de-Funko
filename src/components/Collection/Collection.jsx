@@ -14,6 +14,7 @@ const Collection = ({title, description, picture}) => {
       <picture className="col-img-container">
         <img className="collection-img" src={picture} alt={title}></img>
       </picture>
+      {console.log("se recorrio una coleccion")}
     </main>
   )
 }

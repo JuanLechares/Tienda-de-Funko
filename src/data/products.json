@@ -60,7 +60,8 @@
       "price": "1849,99",
       "cuotas":"6",
       "picture-front":"src/assets/pokemon/pidgeotto-1.webp",
-      "picture-back":"src/assets/pokemon/pidgeotto-box.webp"
+      "picture-back":"src/assets/pokemon/pidgeotto-box.webp",
+      "new":true
     },
     {
       "id": 2,

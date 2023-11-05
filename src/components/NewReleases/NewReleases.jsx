@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { useRef } from "react";
-import { Link } from "react-router-dom";
+import { Link, ScrollRestoration } from "react-router-dom";
 
 
 const NewReleases = () => {
@@ -28,7 +28,7 @@ const NewReleases = () => {
             {productList != null &&
               productList.map((prod) => {
                 return (
-                  <Link underline="none" key={prod.id} to={"item/"+prod.route}>
+                  <Link underline="none" key={prod.id} to={"../shop/"+prod.route}>
                     <Product
                       title={prod.title}
                       collection={prod.collection}
@@ -37,9 +37,11 @@ const NewReleases = () => {
                       imgFront={"../"+prod["picture-front"]}
                       newItem={prod.new}
                     />
+                    <ScrollRestoration />
                   </Link>
                 );
-              })}
+              })
+            }
           </Slider>
         </div>
         <div className="btn-container">

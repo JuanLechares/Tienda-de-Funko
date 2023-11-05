@@ -1,32 +1,22 @@
 .product-container{
-  display: flex;
-  flex-direction: column;
   cursor: pointer;
   background-color: white;
-  padding-bottom: 1rem;
   border-radius: 8px;
   overflow: hidden;
   transition: all 0.25s;
   margin:0.2em;
-  text-decoration: none;
 }
 
 .product-container:hover{
   box-shadow: 0 12px 16px rgba(0,0,0, 0.2);
 }
 
-.new-icon {
-  background-color: #ff3333;
-  color: white;
-  border-top-left-radius: 8px;
-  text-transform: uppercase;
-  width: 30%;
-  text-align: center;
+
+.product-img{
+  width: 100%;
+  overflow: hidden;
 }
 
-.product-img {
-  height: 60%;
-}
 
 @media only screen and (max-width: 900px) {
   .new-icon{
@@ -35,20 +25,14 @@
 }
 
 @media only screen and (max-width: 640px) {
-
   .product-title, .product-col, .product-col, .product-coutas{
     font-size: 10px;
-  }
-
-  .new-icon{
-    font-size: 8px;
   }
 }
 
 @media only screen and (max-width: 350px) {
   .product-title, .product-col, .product-col, .product-coutas{
-    font-size: 8px;
-    height: 0.2em;
+    font-size: 9px;
   }
   
   .new-icon{
@@ -59,7 +43,7 @@
 .product-title, .product-col, .product-price, .product-coutas{
   text-transform: uppercase;
   height: 3%;
-  padding-left: 0.5em;
+  padding-left: 1.5vw;
 }
 
 .product-title{

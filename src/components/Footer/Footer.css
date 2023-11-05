@@ -19,6 +19,22 @@ footer{
   width: 6em;
 }
 
+.menu-footer .navbar{
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.menu-footer .navbar:hover{
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: 0.7s;
+  color: #f59622 ;
+  opacity: 0.8;
+}
+
 .menu-footer{
   display: flex;
   flex-direction: column;

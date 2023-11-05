@@ -1,12 +1,13 @@
 import "./Footer.css";
 import logo from "../../assets/branding/isotype.webp";
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
     <footer className="">
       <nav className="navbarContainer">
         <ul className="menu-footer">
-          <li className="navbar">SHOP</li>
+          <NavLink className={({isActive})=> isActive ? "active navbar" : "navbar" } to="/shop">shop</NavLink>
           <li className="navbar">ADMIN</li>
         </ul>
         <picture>

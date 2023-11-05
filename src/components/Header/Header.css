@@ -1,18 +1,20 @@
 
-@media (max-width: 768px) {
-  #logo{
+@media (max-width: 500px) {
+  #logo, a:-webkit-any-link{
     display: none;
   }  
-  header {
-    justify-content: center ;
+  .menu{
+    justify-content: center;
   }
 }
 
 
 header {
-  display: flex;
+  display: grid;
+  grid-template-columns: 50% 50%;
   background-color: #30343F;
   justify-content: space-between;
+  align-items: center;
   padding-right: 5vw;
   padding-left: 5vw;
 }
@@ -28,12 +30,14 @@ header {
 .menu{
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: end;
+  justify-content: end;
+  width: 100%;
   gap: 3rem;
   padding: 1rem;
 }
 
-.navbar{
+.menu .navbar{
   color: white;
   text-decoration: none;
   list-style: none;
@@ -41,10 +45,14 @@ header {
   text-transform: uppercase;
 }
 
+.menu .active{
+  color: #f59622;
+}
+
 .navbar:hover{
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
   transition: 0.7s;
-  color: #f59622;
+  color: #f59622 ;
   opacity: 0.8;
 }

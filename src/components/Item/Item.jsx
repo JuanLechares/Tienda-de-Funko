@@ -32,8 +32,8 @@ const Item = () => {
       <Header />
       <main className="item-container">
         <div className="img-paging">
-            <button onClick={() => slider?.current?.slickPrev()}><img width="70px" className="p-picture-small" src={"../../../"+item["picture-front"]}></img></button>
-            <button onClick={() => slider?.current?.slickNext()}><img width="70px" className="p-picture-small" src={"../../../"+item["picture-back"]}></img></button>
+            <button  onClick={() => slider?.current?.slickPrev()}><img className="p-picture-small" src={"../../../"+item["picture-front"]}></img></button>
+            <button onClick={() => slider?.current?.slickNext()}><img className="p-picture-small" src={"../../../"+item["picture-back"]}></img></button>
         </div>
         <picture className="item-img">
           <Slider ref={slider} {...settings}>
@@ -42,18 +42,18 @@ const Item = () => {
           </Slider>
         </picture>
         <section className="item-description">
-          {item.new ? (<div className="new-icon">new</div>) : ""}
           <h3>{item.collection}</h3>
           <h1>{item.title}</h1>
-          <p className="item-text">Figura collecionable de {item.title}, edición limitada</p>
+          <p className="item-text">figura collecionable de {item.title}, edición limitada</p>
           <span className="item-price">${parseInt(item.price)*counter}</span>
+          <p className="item-coutas">En {item.cuotas} x ${ Math. round((parseInt(item.price)*counter)/(parseInt(item.cuotas)))}</p>
           <div className="btn-item-container">
-            <button className="btn-count" onClick={()=>setCounter(counter+1)}>+</button>
-            <span className="num-count">{counter}</span>
             <button className="btn-count" onClick={()=>(counter>1)&&setCounter(counter-1)}>-</button>
-            <button className="btn-carrito">añadir al carrito</button>
+            <span className="num-count">{counter}</span>
+            <button className="btn-count" onClick={()=>setCounter(counter+1)}>+</button>
           </div>
-          <span className="item-coutas">{item.cuotas} coutas sin interés de ${ Math. round((parseInt(item.price)*counter)/(parseInt(item.cuotas)))}</span>
+          <button className="btn-carrito">añadir al carrito</button>
+          
         </section>
       </main>
       <NewReleases />
