@@ -1,0 +1,14 @@
+.card {
+  display: grid;
+  grid-template-columns: 30% 60%;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 0.5em;
+  gap: 2em;
+  border: 2px solid #ebebeb;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+
